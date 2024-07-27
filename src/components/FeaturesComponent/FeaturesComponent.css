@@ -1,0 +1,91 @@
+.feature-container {
+  display: flex;
+  background: #334257;
+  height: 100vh;
+  align-items: center;
+  /* width: 90%;
+  margin: 0 auto; */
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  padding: 50px 100px 50px 80px;
+}
+
+.right {
+  flex: 1;
+}
+.features {
+  position: relative;
+}
+
+.features h2 {
+  cursor: pointer;
+  color: gray;
+  transition: color 0.3s ease;
+  padding-left: 20px;
+  position: relative;
+  font-size: 42px;
+}
+
+.features h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  background-color: gray;
+  transition: background-color 0.3s ease;
+}
+
+.features h2.active {
+  color: white;
+}
+
+.features h2.active::before {
+  background-color: red;
+}
+
+.features h2.inactive:hover {
+  color: darkgray;
+}
+
+.description {
+  margin-top: 50px;
+  padding: 0px 30px;
+  position: relative;
+  color: white;
+  width: 80%;
+  text-align: justify;
+}
+.description p {
+  font-size: 20px;
+}
+.right img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in-out;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}

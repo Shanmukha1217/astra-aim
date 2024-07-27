@@ -1,0 +1,29 @@
+.hero {
+  height: 80vh;
+  width: 100%;
+  /* background-image: url("../src/assets/careers-banner-final.jpg"); */
+  /* background-position: center;
+  background-size: cover; */
+}
+.hot-jobs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  gap: 5px;
+}
+.hot-jobs img {
+  height: 40px;
+  width: 40px;
+}
+.alljobs-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.btn-link {
+  color: white;
+  text-decoration: none;
+}
+.btn-link:hover {
+  color: black;
+}

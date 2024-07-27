@@ -1,0 +1,65 @@
+.next-section,
+.second-section {
+  height: 100vh;
+  width: 100%;
+}
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage .first-section {
+  padding: 50px 80px;
+  background-image: linear-gradient(rgb(158, 208, 215), rgb(208, 236, 242));
+}
+.homepage .second-section {
+  padding: 50px 80px;
+  background-image: linear-gradient(rgb(208, 236, 242), rgb(158, 208, 215));
+}
+.section-title {
+  text-align: center;
+}
+
+.first-section .info {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.first-section img {
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.first-section .info .first-section-left h2 {
+  font-size: 36px;
+  font-weight: normal;
+  padding: 20px 0;
+}
+
+.second-section .info {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.second-section img {
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+}
+.second-section .second-section-right {
+  width: 50%;
+}
+.second-section .second-section-right p {
+  padding: 50px 0px;
+  font-size: 20px;
+  text-align: justify;
+  color: rgb(27, 26, 26);
+}
+.second-section .second-section-right h1 {
+  font-size: 36px;
+  font-weight: normal;
+  padding: 20px 0;
+}

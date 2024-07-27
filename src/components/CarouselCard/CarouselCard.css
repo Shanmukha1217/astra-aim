@@ -1,0 +1,40 @@
+.carousel-card {
+  margin: 0px 0px 50px 50px;
+  padding: 20px;
+  height: 350px;
+  width: 500px;
+  border: 2px solid #334257;
+  transition: box-shadow 0.3s ease;
+}
+
+.carousel-card:hover {
+  box-shadow: 5px -5px 10px #334257;
+}
+.carousel-card .top {
+  margin-bottom: 15px;
+}
+.carousel-card .top .info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.carousel-card .sub-info {
+  display: flex;
+  gap: 5px;
+}
+ul {
+  padding-left: 20px;
+}
+.apply-btn {
+  border: 1.5px solid black;
+  padding: 7px 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #334257;
+  cursor: pointer;
+}
+.apply-btn:hover {
+  background-color: #fff;
+  color: black;
+}
