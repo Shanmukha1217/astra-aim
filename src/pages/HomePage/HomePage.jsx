@@ -1,11 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 import HomeHero from "../../components/HomeHero/HomeHero";
+import AboutUs from "../../components/AboutSection/Aboutus.jsx";
 import CardImg from "../../assets/delivery-box1.jpg";
-import astraAimImg from "../../assets/about-image.png";
 import ContactUs from "../ContactUs/ContactUs.jsx";
 import "./HomePage.css";
 import { Link, useLocation } from "react-router-dom";
 import Loading from "../../components/Loading/Loading.jsx";
+
 
 const HomePage = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -50,7 +51,7 @@ const HomePage = () => {
       </div>
 
       <div className="second-section">
-        <img src={astraAimImg} alt="" />
+        {/* <img src={astraAimImg} alt="" />
         <div className="info">
           <h2 className="about-title">ABOUT US</h2>
           <h1 className="about-tagline">
@@ -77,7 +78,8 @@ const HomePage = () => {
             quaerat enim voluptatem vitae repellendus!
           </p>
           <button>Read more</button>
-        </div>
+        </div> */}
+        <AboutUs/>
       </div>
       <ContactUs />
     </div>
